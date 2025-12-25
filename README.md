@@ -28,6 +28,25 @@ The system:
 **Processing:** Match case fields with policy text  
 **Output:** Relevant policy clauses with citations
 
+## Example Case
+
+The following example demonstrates how the system attaches policy rules
+based on case attributes:
+
+```json
+{
+  "claim_type": "Flood",
+  "state": "Florida"
+}
+
+## Note
+
+This project is a functional prototype developed for a hackathon to
+demonstrate feasibility and core ideas.
+
+It is not intended to be a production-ready system, but the architecture
+can be extended and scaled for real-world deployment.
+
 ---
 
 ## How to Run
